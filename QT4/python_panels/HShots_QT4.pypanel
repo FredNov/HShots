@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pythonPanelDocument>
+  <!-- This file contains definitions of Python interfaces and the
+ interfaces menu.  It should not be hand-edited when it is being
+ used by the application.  Note, that two definitions of the
+ same interface or of the interfaces menu are not allowed
+ in a single file. -->
+  <interface name="HShots" label="HShots" icon="MISC_python" help_url="">
+    <script><![CDATA[def createInterface():
+    import HShots_QT4
+    reload(HShots_QT4)
+    return HShots_QT4.HShots()]]></script>
+    <help><![CDATA[]]></help>
+  </interface>
+</pythonPanelDocument>
