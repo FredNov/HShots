@@ -2,7 +2,7 @@
 
 Houdini python panel tool for creating and managing shots in *.hip file. Stores all the data in external *.txt file.
 
-  ![Help](Help/HShots.gif)
+  ![Help](Help/hshots.gif)
 
 Create and manage shots in *.hip file.
 All the data stores in external *.txt file.
