@@ -16,6 +16,7 @@ The Shot data contains:
 
 -Displays text data in viewport
 Basically switching shots means switching between sets of those parameters with camera in viewport.
+If you spot any bug, please feel free to send me an email at gammany@gmail.com
 
 How to Install:
 
