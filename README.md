@@ -4,22 +4,10 @@ Houdini python panel tool for creating and managing shots in *.hip file. Stores 
 
   ![Help](Help/hshots.gif)
 
-Create and manage shots in \*.hip file.
-All the data stores in external \*.txt file.
+- Create and manage shots in \*.hip file.
+- All the data stores in external \*.txt file.
 The Shot data contains:
-
--Name
-
--Frame range
-
--Camera
-
--Bundle
-
--Take
-
--Text comment
-
+Name, Frame range, Camera, Bundle, Take, Text comment
 -Displays text data in viewport
 
 Basically switching shots means switching between sets of those parameters with camera in viewport.
