@@ -1,6 +1,6 @@
 # HShots
 
-Houdini python panel tool for creating and managing shots in *.hip file. Stores all the data in external *.txt file.
+Houdini python panel tool for creating and managing shots in \*.hip file. Stores all the data in external \*.txt file.
 
   ![Help](Help/hshots.gif)
 
@@ -17,7 +17,7 @@ How to Install:
 
 1. Choose proper Qt version corresponding to your Houdini build.
   
-  To find which version do you use go to Help > About
+  To find which version to use go to Help > About
   
   ![4](Help/4.png)
   ![5](Help/5.png)
