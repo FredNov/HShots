@@ -110,13 +110,23 @@ class HShots (QtWidgets.QWidget):
         pyperclip.copy(s.text(2).rstrip())
 
     def setShot(self):
+        print("setShot method called")
         s=self.shots.selectedItems()[0]
         name=s.text(0)
-        fr=map(int, re.findall(r'(\d+)',s.text(1)))
+        fr=list(map(int, re.findall(r'(\d+)',s.text(1))))
+        #fr=map(int, re.findall(r'(\d+)',s.text(1)))
         combo_cam=s.text(2).rstrip()
         bundle=s.text(3).rstrip()
         take=s.text(4).rstrip()
         notes=s.text(5).rstrip()
+        
+        # Add print statements to print the values of variables
+        #print('name:', name)
+        #print('fr:', fr)
+        #print('combo_cam:', combo_cam)
+        #print('bundle:', bundle)
+        #print('take:', take)
+        #print('notes:', notes)
 
         self.ln_name.setText(name) 
         self.ln_begin.setText(str(fr[0])) 
@@ -170,6 +180,7 @@ class HShots (QtWidgets.QWidget):
             hou.takes.setCurrentTake(hou.takes.findTake(take))
         else:
             hou.takes.setCurrentTake(hou.takes.rootTake())
+        print
 
     def saveFile(self):
         pth=hou.getenv('HIP')+'\\shots.txt'

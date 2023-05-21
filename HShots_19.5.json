@@ -1,0 +1,10 @@
+{
+	"env": [
+        {
+			"HShots": "Your_Path_To/HShots"
+        }
+	],
+	"path": [
+        "$HShots"
+    ]
+}
