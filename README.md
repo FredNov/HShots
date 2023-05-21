@@ -1,5 +1,7 @@
 # HShots
 
+*Special thanks to @Kirillium for updating it for 19.5 Houdini compatibility.*
+
 Houdini python panel tool for creating and managing shots in \*.hip file. Stores all the data in external \*.txt file.
 
   ![Help](Help/hshots.gif)
