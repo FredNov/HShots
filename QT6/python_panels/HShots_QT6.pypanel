@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<pythonPanelDocument>
+  <interface name="HShots" label="HShots" icon="MISC_python" help_url="">
+    <script><![CDATA[def createInterface():
+    import HShots_QT6
+    from importlib import reload
+    reload(HShots_QT6)
+    return HShots_QT6.HShots()]]></script>
+    <help><![CDATA[]]></help>
+  </interface>
+</pythonPanelDocument>
